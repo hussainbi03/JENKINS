@@ -6,7 +6,6 @@ pipeline{
     }
     options{
         disableConcurrentBuilds()
-        sleep 15
     }
     stages{
         stage('build'){
@@ -33,6 +32,7 @@ pipeline{
                 script{
                     sh """
                         echo "this is deploy"
+                        sleep 15
                      """
 
                 }
