@@ -23,6 +23,7 @@ pipeline{
                             echo "this is build"
                             echo "this is $PROJECT"
                             echo "hello, ${params.PERSON}"
+                            echo "hell0 ${params.CHOICE}"
                          """   
                     }
                 }
