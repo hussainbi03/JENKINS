@@ -10,7 +10,7 @@ pipeline{
                 script{
                         sh """
                             echo "this is build"
-                            echo "this is $PROJECT
+                            echo "this is $PROJECT"
                          """   
                     }
                 }
